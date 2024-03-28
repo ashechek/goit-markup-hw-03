@@ -4,6 +4,19 @@ body {
     background-color: #FFFFFF;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 img {
     display: block
 }
@@ -117,7 +130,7 @@ a {
 
 /*------MAIN--------*/
 
-/*------Section1--------*/
+/*------Section 1--------*/
 
 .section-first {
     background-color: #2e2f42;
@@ -161,6 +174,14 @@ a {
     background-color: #404BBF;
 }
 
+/*--------------*/
+
+/*------Section 2--------*/
+
+.section-second {
+    padding: 120px 0;
+}
+
 .section-second-list-item-title {
     color: #2E2F42;
     font-family: Roboto;
@@ -180,6 +201,19 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+
+.section-second-list {
+    display: flex;
+    gap: 24px;
+}
+
+.section-second-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+/*--------------*/
+
+/*-----Section 3---------*/
 
 .section-third-list {
     background-color: #FFFFFF;
