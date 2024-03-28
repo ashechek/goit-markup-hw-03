@@ -131,9 +131,9 @@ a {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
     letter-spacing: 1.12px;
-    line-height: 1.07
+    line-height: 1.07;
+    max-width: 496px;
 }
 
 .main-button {
@@ -146,6 +146,11 @@ a {
     line-height: 24px;
     letter-spacing: 0.64px;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .main-button:hover {
