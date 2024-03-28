@@ -11,7 +11,7 @@ img {
 .container {
     width: 1158px;
     padding: 0 15px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 ul {
@@ -75,6 +75,7 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .header-text-list-item:hover {
@@ -105,6 +106,11 @@ a {
 
 .header-link:focus {
     color: #404bbf
+}
+
+.header-list-class-adress {
+    display: flex;
+    gap: 40px;
 }
 
 /*--------------*/
