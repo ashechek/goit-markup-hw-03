@@ -318,12 +318,31 @@ a {
     margin-bottom: 8px;
 }
 
+.footer {
+    padding: 100px 0;
+}
+
 .footer-disc {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .section-second {
     color: #f4f4fd;
+}
+
+.logo-footer {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    margin-right: 76px;
+    margin-bottom: 16px;
 }
