@@ -17,6 +17,13 @@ body {
     overflow: hidden;
 }
 
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
 img {
     display: block
 }
@@ -44,6 +51,7 @@ a {
 
 .header-container {
     display: flex;
+    align-items: center;
 }
 
 .header-nav {
@@ -91,6 +99,7 @@ a {
     letter-spacing: 0.32px;
     text-decoration: none;
     padding: 24px 0;
+    display: block;
 }
 
 .header-text-list-item:hover {
@@ -103,6 +112,7 @@ a {
 
 .header-adress {
     font-style: normal;
+    margin-left: auto;
 }
 
 .header-link {
@@ -113,6 +123,8 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
     text-decoration: none;
+    padding: 24px 0;
+    display: block;
 }
 
 .header-link:hover {
@@ -149,6 +161,9 @@ a {
     letter-spacing: 1.12px;
     line-height: 1.07;
     max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-button {
@@ -166,6 +181,8 @@ a {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-button:hover {
@@ -180,7 +197,7 @@ a {
 
 /*------Section 2--------*/
 
-.section-second {
+.section-second-section {
     padding: 120px 0;
 }
 
@@ -317,7 +334,10 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+}
+
+.left-all {
+    text-align: left;
 }
 
 .footer {
@@ -345,7 +365,6 @@ a {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     line-height: 1.17;
-    margin-right: 76px;
-    margin-bottom: 16px;
+    margin-bottom: 17.5px;
     display: inline-block;
 }
